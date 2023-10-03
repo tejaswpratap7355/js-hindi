@@ -33,3 +33,28 @@ const myFunction = function() {
 }
 
 console.log(typeof myFunction);
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// js in memory work
+// Stack (Primitve) inside value are copy, Heap (Non-Primitive) inside value are reference
+
+let myName = "Tejasw"
+
+let anotherName = myName
+anotherName = "Tej"
+console.log(myName);
+console.log(anotherName);
+
+let userOne = {
+    email:"tej@google.com",
+    upi:"tej@ybl"
+}
+
+let userTwo = userOne;
+userTwo.email = "singh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
