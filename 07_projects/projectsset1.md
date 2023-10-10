@@ -1,7 +1,7 @@
 # Projects related to DOM
 
 ## project link
-[Click here](https://dom-project-chaiaurcode-6ayhyx.stackblitz.io/1-colorChanger/index.html)
+[Click here](https://stackblitz.com/edit/dom-project-chaiaurcode-fuqvfe?file=index.html)
 
 # solution code
 
